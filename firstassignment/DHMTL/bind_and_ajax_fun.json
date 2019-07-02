@@ -1,0 +1,43 @@
+{
+	"data": [{
+		"id": "1",
+		"term": "Abstract", 
+		"deff": "A Java keyword used in a class definition to specify that a class is not to be instantiated, but rather inherited by other classes. An abstract class can have abstract methods that are not implemented in the abstract class, but in subclasses."}, 
+{
+		"id": "2",
+		"term": "Abstract Class", 
+		"deff": "A class that contains one or more abstract methods , and therefore can never be instantiated. Abstract classes are defined so that other classes can extend them and make them concrete by implementing the abstract methods."},
+{
+		"id": "3",
+		"term": "Abstract Method", 
+		"deff": "A method that has no implementation."},
+{
+		"id": "4",
+		"term": "Abstract Window Toolkit (AWT)", 
+		"deff": "A collection of graphical user interface (GUI) components that were implemented using native-platform versions of the components. These components provide that subset of functionality which is common to all native platforms. Largely supplanted by the Project Swing component set. See also Swing ."},
+{
+		"id": "5",
+		"term": "Access Control", 
+		"deff": "The methods by which interactions with resources are limited to collections of users or programs for the purpose of enforcing integrity, confidentiality, or availability constraints."},
+{
+		"id": "6",
+		"term": "ACID", 
+		"deff": "The acronym for the four properties guaranteed by transactions: atomicity, consistency, isolation, and durability."}, 
+{
+		"id": "7",
+		"term": "Actual Parameter List", 
+		"deff": "The arguments specified in a particular method call. See also formal parameter list ."},
+{
+		"id": "8",
+		"term": "API", 
+		"deff": "Application Programming Interface. The specification of how a programmer writing an application accesses the behavior and state of classes and objects."},
+{
+		"id": "9",
+		"term": "Applet", 
+		"deff": "A component that typically executes in a Web browser, but can execute in a variety of other applications or devices that support the applet programming model."},
+{
+		"id": "10",
+		"term": "Argument", 
+		"deff": "A data item specified in a method call. An argument can be a literal value, a variable, or an expression."}
+]}
+

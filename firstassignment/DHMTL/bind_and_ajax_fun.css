@@ -1,0 +1,198 @@
+body {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+   border:  solid black 2px; 
+   height: 97vh;
+   width: 60vw;
+}
+
+.controlBoardContainer {
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+
+   background: lightblue;
+   border: 2px solid black;
+   height: 40%;
+}
+
+.titleAndTimerCont {
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+   border: solid black 2px;
+   height: 60px;
+   margin: 2px
+}
+
+.titleCont {
+   display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+   border: 2px solid black;
+   height: 40px;
+   width: 20vw;
+   margin-left: 5px
+}
+
+.title {
+   font-size: 15px;
+   margin-left: 5%;
+   background-color: yellow;
+}
+
+.timeCont {
+   display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   align-items: center;
+
+   border: 2px solid black;
+   height: 40px;
+   width: 20vw;
+   margin-right: 5px
+}
+
+.timer {
+   font-size: 20px;
+   margin-right: 5%
+}
+.scorePlayUndoCont{
+	
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+   border: solid black 2px;
+   height: 60px;
+   margin: 2px
+}
+.scoreCont{
+	display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+
+   border: 2px solid black;
+   height: 40px;
+   width: 20vw;
+   margin-right: 5px;
+   }
+.score{font-size: 25px;
+   margin-left: 5%}
+.playCont{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   align-items: center;
+
+   border: 2px solid black;
+   height: 40px;
+   width: 20vw;
+   margin-right: 5px
+}
+#play{font-size: 15px;
+   margin-left: 5%}
+   
+.gameBoard {
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+   background: lightcoral;
+   /* border: 2px solid black; */
+   height: 76vh
+}
+
+.termCont {
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+   
+   height: 97%;
+   width: 25%;
+   margin-left: 10px;
+   border: solid black 2px;
+   background-color: crimson;
+}
+
+.termBox {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   background-color: rgb(168, 47, 47);
+   
+   border-radius: 5px;
+   box-shadow: 8px 5px 5px black;
+   height: 65px;
+   width: 150px
+}
+
+.term {
+   font-size: 20px
+}
+
+.termDeffCont {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   border:  solid black 2px; 
+   height: 97%;
+   width: 72%;
+   margin-right: 10px;
+   background-color:rgb(255, 0, 191);
+}
+
+.deffAndTermBox {
+   display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   align-items: center;
+
+   background-color: rgb(223, 9, 9);
+   border:  solid black 2px; 
+   border-radius: 5px;
+
+   height: 100px;
+   width: 95%;
+}
+
+.termDrop {
+   
+   border: 2px solid black; 
+   border-radius: 5px;
+   height: 65px;
+   width: 20%;
+   margin-left: 5%;
+   background-color:yellow;
+}
+.deffBox {
+   height: 60px;
+    border: 2px solid black; 
+   border-radius: 5px;
+   height: 95%;
+   width: 75%;
+   margin-left: 5%;
+   margin-right: 5%;
+   background-color:blue;
+}
+.hide{
+	visibility:none;
+}
