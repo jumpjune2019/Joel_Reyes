@@ -16,9 +16,7 @@ public class PhoneApp {
 		String [][] onePhoneBook =phoneBook();
 		printToScreen(onePhoneBook);
 		printToFile(onePhoneBook);
-//		String [] array = new String[3];
-//		array=returnInput();
-//		System.out.println(array[0]+array[1]+array[2]);
+
 	}
 public static String[][] phoneBook() throws IOException {
 	String [][] phoneBook= new String[6][3];
@@ -32,38 +30,15 @@ public static String[][] phoneBook() throws IOException {
 	
 	
 	 for (int row = 1; row < phoneBook.length; row++) { 
-	      //  for (int col = 0; col < phoneBook[row].length; col++) {
+	      array=returnInput();
 	        	
-	        	array=returnInput();
-	        	
-	        	phoneBook[row][0]=array[0];
-	        	phoneBook[row][1]=array[1];
-	        	phoneBook[row][2]=array[2];
-//	        	if(col==0){
-//	                System.out.println("Enter name: ");
-//	            	phoneBook[row][0] = phoneInput(input);
-//	            }else if(col==1){
-//	                System.out.println("Enter phone number: ");
-//		            phoneBook[row][1] = phoneInput(input);
-//	            }else if(col==2){
-//	               	System.out.println("Enter city: ");
-//	               	phoneBook[row][2] = phoneInput(input);
-//	            }
-	        //    call for input
-	           // take input
-	           // check imput
-	            //if not null put it in array 
-	             //if null pront again fire exception
-	        
-
-		//}
-	     //print out namePhoneCity
-	        //Ask user if information is correct
-	        //row--
+	      phoneBook[row][0]=array[0];
+	      phoneBook[row][1]=array[1];
+	      phoneBook[row][2]=array[2];
+//	        
 	 }
 	
-	//************************************************************
-		
+	
 	return phoneBook;
 	}
 public static void printToScreen(String[][]array) {
@@ -87,8 +62,6 @@ public static void printToFile(String[][]array) {
 					FileWriter fw = new FileWriter("phone.txt");
 					BufferedWriter out= new BufferedWriter(fw);
 					
-					
-
 					for (String[] row : array) {
 						for (String elem : row) {
 							out.write(elem +"\t \t");
