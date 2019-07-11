@@ -1,0 +1,1 @@
+This project was worked on by me, Trey Hand, and Joel. He and I worked on the same things from different angles in order to find the best path.What he said was great.
