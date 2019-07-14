@@ -2,7 +2,7 @@ public enum CountMoney {
     PENNY(0.01,0), NICHEL(0.05,0), DIME(0.10,0), QUARTER(0.25,0), HALFDOLLAR(0.50,0), DOLLAR(1.00,0);
     private Double Value;
     private Integer Amount;
-    CountMoney(Double value, Integer amount){
+     CountMoney(Double value, Integer amount){
         Value = value;
         Amount = amount;
     }
